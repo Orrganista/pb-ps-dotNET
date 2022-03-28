@@ -9,22 +9,22 @@ namespace FizzBuzzWeb.Models
             object? value, ValidationContext validationContext)
         {
 
-            string message;
-
             if (value != null)
             {
                 int number = (int)value;
 
+                string message = "";
+
                 if (number % 3 == 0)
-                    message = "Fizz";
+                    message += "Fizz";
 
                 if (number % 5 == 0)
-                    message = message + "Buzz";
+                    message += "Buzz";
 
-                else
-                    errorMessage = $"Liczba: {number} nie spełnia kryteriów FizzBuzz";
+                if (String.IsNullOrEmpty(message))
+                    message = $"Liczba: {number} nie spełnia kryteriów FizzBuzz";
 
-                return new ValidationResult(errorMessage);
+                return new ValidationResult(message);
             }
 
             return ValidationResult.Success;

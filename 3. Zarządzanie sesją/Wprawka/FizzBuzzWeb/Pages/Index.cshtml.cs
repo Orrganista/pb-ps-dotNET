@@ -13,7 +13,7 @@ public class IndexModel : PageModel
     public FizzBuzz FizzBuzz { get; set; }
 
     [BindProperty(SupportsGet = true)]
-    public string Name { get; set; }
+    public string Name { get; set; } = "User";
 
     public IndexModel(ILogger<IndexModel> logger)
     {
@@ -23,23 +23,12 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         if (string.IsNullOrWhiteSpace(Name))
-        {
             Name = "User";
-        }
     }
-
-    // public IActionResult OnPost()
-    // {
-    //     if (!ModelState.IsValid)
-    //     {
-    //         return Page();
-    //     }
-
-    //     return RedirectToPage("./Privacy");
-    // }
 
     public IActionResult OnPost()
     {
+
         if (ModelState.IsValid)
         {
             HttpContext.Session.SetString("Data",

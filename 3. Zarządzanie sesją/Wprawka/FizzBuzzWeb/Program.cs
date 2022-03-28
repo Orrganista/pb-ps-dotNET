@@ -2,7 +2,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+// builder.Services.AddMemoryCache();
 builder.Services.AddDistributedMemoryCache();
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromSeconds(10);
@@ -11,8 +13,6 @@ builder.Services.AddSession(options =>
 });
 
 
-// Add services to the container.
-builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -30,8 +30,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-// use session
+
 app.UseSession();
+
 app.MapRazorPages();
 
 app.Run();

@@ -1,0 +1,15 @@
+﻿@page
+@model Years.Pages.ZapisaneModel
+@{
+    ViewData["Title"] = "Data in session";
+}
+<p>Dane w zapisane w sesji</p>
+
+@if (Model.Users != null)
+{
+    @foreach (var user in Model.Users)
+    {
+        string leap = user.isLeapYear() ? "przestępny" : "nieprzestępny";
+        <p>@user.Name, @user.Year - rok @leap</p>
+    }
+}
