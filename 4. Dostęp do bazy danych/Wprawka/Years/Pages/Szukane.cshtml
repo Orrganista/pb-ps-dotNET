@@ -1,0 +1,27 @@
+﻿@page
+@model Years.Pages.SzukaneModel
+@{
+    ViewData["Title"] = "Ostatnio szukane";
+}
+
+<div class="p-3">
+    <div class="index__form">
+
+        @foreach (var item in Model.People)
+        {
+            <div class="szukane d-flex">
+                <div class="">
+                    @Html.DisplayFor(modelItem => item.Name)
+                    @Html.DisplayFor(modelItem => item.Surname)
+                    @Html.DisplayFor(modelItem => item.Year)
+                    @Html.DisplayFor(modelItem => item.Result)
+                    @Html.DisplayFor(modelItem => item.CreatedTime)
+                </div>
+
+                <div style="margin-left: auto;">
+                    <a asp-page="People/Delete" asp-route-id="@item.Id">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
