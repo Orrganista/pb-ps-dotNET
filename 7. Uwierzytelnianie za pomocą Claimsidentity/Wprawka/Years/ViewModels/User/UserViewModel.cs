@@ -8,5 +8,6 @@
         public int? Year { get; set; }
         public bool Result { get; set; }
         public DateTime CreatedTime { get; set; }
+        public string? OwnerId { get; set; }
     }
 }

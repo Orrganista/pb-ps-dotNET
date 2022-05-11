@@ -35,7 +35,8 @@ namespace Years.Services
                     Surname = user.Surname,
                     Year = user.Year,
                     Result = user.Result,
-                    CreatedTime = user.CreatedTime
+                    CreatedTime = user.CreatedTime,
+                    OwnerId = user.OwnerId,
                 };
                 result.People.Add(pVM);
             }
@@ -61,7 +62,8 @@ namespace Years.Services
                     Surname = user.Surname,
                     Year = user.Year,
                     Result = user.Result,
-                    CreatedTime = user.CreatedTime
+                    CreatedTime = user.CreatedTime,
+                    OwnerId = user.OwnerId,
                 };
                 result.People.Add(pVM);
             }

@@ -31,6 +31,9 @@ namespace Years.Models
         [Display(Name = "Utworzony")]
         public DateTime CreatedTime { get; set; }
 
+        [Display(Name = "OwnerId")]
+        public string? OwnerId { get; set; }
+
         public bool IsLeapYear()
         {
             if (DateTime.IsLeapYear(Year ?? 0))

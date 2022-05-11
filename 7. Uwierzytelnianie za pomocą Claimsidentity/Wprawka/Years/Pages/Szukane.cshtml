@@ -9,6 +9,7 @@
 </head>
 
 
+
 <div class="">
     <div class="index__form col-6">
 
@@ -22,14 +23,22 @@
                         @Html.DisplayFor(modelItem => item.CreatedTime)
                     </div>
                 </div>
-                <a onmouseover="user_remove(this)" onmouseout="user_dont_remove(this)" class="a__delete" asp-page="./People/Delete" asp-route-id="@item.Id">
-                    <span class="material-symbols-outlined">delete</span>
-                </a>
+                @{
+                  if (item.OwnerId == Model.CurrentUserId)
+                  {
+                      <a onmouseover="user_remove(this)" onmouseout="user_dont_remove(this)" class="a__delete" asp-page="./People/Delete" asp-route-id="@item.Id">
+                      <span class="material-symbols-outlined">delete</span>
+                      </a>
+                   }
+                 }
+               
             </div>
             
         }
     </div>
 </div>
+
+
 
 
 
