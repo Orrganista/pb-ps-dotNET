@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Years.Pages
 {
-    /*[Authorize]*/
+    [Authorize]
 
     public class SzukaneModel : PageModel
     {
