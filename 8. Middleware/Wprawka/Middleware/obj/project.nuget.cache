@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "vuoip93FFoyY2vNnMP2Nbjk2wWEhLpV0iuouYejERXZ+btGHVR/MHg1QBwoQRBHUsdiOrL1pelh6v78JBkHW+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dominik\\Desktop\\Studia\\Programowanie .NET\\PS\\8. Middleware\\Wprawka\\Middleware\\Middleware.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.0.0\\microsoft.aspnetcore.html.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.http\\2.0.0\\microsoft.aspnetcore.http.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.0.0\\microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.0.0\\microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.0.0\\microsoft.aspnetcore.razor.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.0.0\\microsoft.aspnetcore.razor.runtime.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.0.0\\microsoft.aspnetcore.webutilities.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.objectpool\\2.0.0\\microsoft.extensions.objectpool.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.net.http.headers\\2.0.0\\microsoft.net.http.headers.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.text.encodings.web\\4.4.0\\system.text.encodings.web.4.4.0.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\wangkanai.detection.browser\\2.0.1\\wangkanai.detection.browser.2.0.1.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\wangkanai.detection.core\\2.0.1\\wangkanai.detection.core.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
