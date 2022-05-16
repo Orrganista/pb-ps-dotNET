@@ -1,3 +1,5 @@
+using Middleware;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -22,18 +24,14 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.Run(async context =>
+/*app.Run(async context =>
 {
     var r = context.Request.Headers["User-Agent"].ToString();
 
-/*    if (r.IndexOf("Chrome") > -1)
-    {
-
-    }*/
-
-
     await context.Response.WriteAsync(r);
-});
+});*/
 
+app.UseHttpsRedirection();
+app.UseUrlTransformerMiddleware();
 
 app.Run();
