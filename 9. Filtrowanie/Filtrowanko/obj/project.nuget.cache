@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZLvm3sGLH9QH8Gz5mM3tgTVQyQ2PkNrNE04av/80JJuRXpWHpw3W0OlDO3J/fg1fv+hBonVUt1050ua0OaR2Iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dominik\\Desktop\\Studia\\Programowanie .NET\\PS\\9. Filtrowanie\\Filtrowanko\\Filtrowanko.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dominik\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
